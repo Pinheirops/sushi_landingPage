@@ -442,17 +442,29 @@ nav {
   }
 }
 
-@media(max-width:560px){
-  .header-content{
+@media (max-width: 560px) {
+  .header-content {
     gap: 15px;
   }
   .header-content a {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
-@media(max-width:520px){
-  .sushi-restaurant{
+@media (max-width: 520px) {
+  .header-content {
+    position: initial;
+    width: 100%;
+    z-index: 99;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    box-shadow: 1px 1px 10px rgb(189, 189, 189);
+  }
+
+  .sushi-restaurant {
     top: -40px;
     transition: 2s;
   }
