@@ -397,6 +397,14 @@ nav {
 }
 
 @media (max-width: 900px) {
+  .contato::before {
+    display: none;
+  }
+  
+  .menu::before {
+    display: none;
+  }
+
   .menu-content,
   .main-content {
     padding: 30px 20px;
@@ -431,6 +439,21 @@ nav {
 }
 
 @media (max-width: 800px) {
+
+  .header-content {
+    position: initial;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .nav-main{
+    margin: 0px;
+  }
+
+  .title-header{
+    margin: 0px;
+  }
+
   .locate-content {
     flex-direction: column-reverse;
     gap: 10px;
@@ -452,18 +475,6 @@ nav {
 }
 
 @media (max-width: 520px) {
-  .header-content {
-    position: initial;
-    width: 100%;
-    z-index: 99;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 0px;
-    box-shadow: 1px 1px 10px rgb(189, 189, 189);
-  }
-
   .sushi-restaurant {
     top: -40px;
     transition: 2s;
