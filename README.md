@@ -2,7 +2,7 @@
 <hr>
 <h3>Descrição</h3>
 <p>Uma landing page de um restaurante de culinária japonesa; Encontra-se a história e detalhes do ambiente, os princípais pratos, localização do estabelicimento e a possiblidade de solicitar reservas.</p>
-<p><strong>ACESSAR PROJETO:</strong> https://pinheirops.github.io/Sushi_Restaurant/</p>
+<p><strong>ACESSAR PROJETO:</strong> https://pinheirops.github.io/sushi_landingPage/</p>
 <hr>
 <h3>Ferramentas Utilizadas</h3>
 <ul>
